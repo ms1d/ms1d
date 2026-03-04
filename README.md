@@ -1,5 +1,6 @@
 # 💫 About Me:
-JMC offer holder at the University of Manchester (UK). Primarily a .NET engineer with modest experience with Node.js, Python and C++.
+JMC offer holder at the University of Manchester & Durham University.
+Primarily a .NET engineer with modest experience with Node.js, Python and C++.
 
 # 🎯 Current Focus
 * Building strong fundamentals in backend system architecture (.NET)
