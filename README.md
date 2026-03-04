@@ -4,10 +4,23 @@ JMC offer holder at the University of Manchester (UK). Primarily a .NET engineer
 # 🎯 Current Focus
 * Building strong fundamentals in backend system architecture (.NET)
 * Preparing for software engineering internships and work placements
-* Developing low-level systems intuition with C++
-* Deepening understanding of database design and query performance
-* Studying operating systems and networking fundamentals (Linux, self-hosting)
 * Learning containerised deployment and CI/CD workflows (Docker, GitHub Actions, Azure)
+* Studying operating systems and networking fundamentals (Linux, self-hosting)
+* Database design & query performance
+* Low-level systems programming (C++)
+
+# 🔧 Current Projects
+
+## Tuition Admin Software
+Backend API for managing student attendance for a local tuition center. Built with .NET and PostgreSQL.
+
+### Features
+- Track student attendance and sessions
+- Automated invoice generation + delivery via Mailgun (+ WhatsApp Business API)
+- Flexible schema for scaling the system to add more features
+
+### Tech Stack
+.NET, PostgreSQL, Docker, GitHub Actions, Azure (Container Apps + Blob Storage for Observability)
 
 # 🌐 Socials:
 [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mahadsiddiqui07@outlook.com) 
