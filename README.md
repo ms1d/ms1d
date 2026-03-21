@@ -27,11 +27,10 @@ Backend API for managing student attendance for a local tuition center. Built wi
 - CI/CD: Docker + GH Actions
 - Hosting: Azure (Container Apps + Blob Storage for Observability)
 
+---
+
 ## Path Tracer
 A full stack service where users can sign up, manage scenes and submit them for offline rendering
-[C++ server](https://github.com/ms1d/path-tracer-cpp)
-[.NET server](https://github.com/ms1d/PathTracerApi)
-[React App](https://github.com/ms1d/path-tracer-react)
 
 ### Planned Features
 - Interactive game engine-like scene editing interface
@@ -40,9 +39,9 @@ A full stack service where users can sign up, manage scenes and submit them for 
 - Realtime render progress view via UDP + Websocket streaming to client
 
 ### Tech Stack
-- Frontend: React (with GH Pages hosting)
-- Backend (main): .NET (with Azure Container Apps hosting)
-- Backend (path tracer): CUDA (with vast.ai hosting)
+- Frontend: [React](https://github.com/ms1d/path-tracer-react) (with GH Pages hosting)
+- Backend (main): [.NET](https://github.com/ms1d/PathTracerApi) (with Azure Container Apps hosting)
+- Backend (path tracer): [CUDA](https://github.com/ms1d/path-tracer-cpp) (with vast.ai hosting)
 - DB: PostgreSQL
 - CI/CD: Docker + GH Actions
 
