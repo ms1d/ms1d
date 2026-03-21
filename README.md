@@ -1,13 +1,11 @@
 # 💫 About Me
 JMC offer holder at the University of Manchester & Durham University.
-Primarily a .NET engineer with modest experience with Node.js, Python and C++.
+Primarily a .NET engineer with Node.js, Python and C++ experience.
 
 # 🎯 Current Focus
-* Building strong fundamentals in backend system architecture (.NET)
-* Preparing for software engineering internships and work placements
-* Learning containerised deployment and CI/CD workflows (Docker, GitHub Actions, Azure)
+* Practicing strong fundamentals in backend system architecture
+* Building containerised deployment systems and CI/CD workflows (Docker, GitHub Actions, Azure)
 * Studying operating systems and networking fundamentals (Linux, self-hosting)
-* Database design & query performance
 * Low-level systems programming (C++)
 
 # 🔧 Current Projects
@@ -15,13 +13,38 @@ Primarily a .NET engineer with modest experience with Node.js, Python and C++.
 ## Tuition Admin Software
 Backend API for managing student attendance for a local tuition center. Built with .NET and PostgreSQL.
 
-### Features
-- Track student attendance and sessions
-- Automated invoice generation + delivery via Mailgun (+ WhatsApp Business API)
+### Implemented Features
+- User Auth + Resource Management
+- Student attendance and sessions tracking
 - Flexible schema for scaling the system to add more features
 
+### Planned Features
+- Automated invoice generation + delivery via Mailgun (+ WhatsApp Business API)
+
 ### Tech Stack
-.NET, PostgreSQL, Docker, GitHub Actions, Azure (Container Apps + Blob Storage for Observability)
+- Code: .NET
+- DB: PostgreSQL
+- CI/CD: Docker + GH Actions
+- Hosting: Azure (Container Apps + Blob Storage for Observability)
+
+## Path Tracer
+A full stack service where users can sign up, manage scenes and submit them for offline rendering
+[C++ server](https://github.com/ms1d/path-tracer-cpp)
+[.NET server](https://github.com/ms1d/PathTracerApi)
+[React App](https://github.com/ms1d/path-tracer-react)
+
+### Planned Features
+- Interactive game engine-like scene editing interface
+- Dashboard for managing scenes + renders
+- 2 backend servers: main .NET server for most domain logic + specialised C++ server for path tracing requests
+- Realtime render progress view via UDP + Websocket streaming to client
+
+### Tech Stack
+- Frontend: React (with GH Pages hosting)
+- Backend (main): .NET (with Azure Container Apps hosting)
+- Backend (path tracer): CUDA (with vast.ai hosting)
+- DB: PostgreSQL
+- CI/CD: Docker + GH Actions
 
 # 🌐 Socials
 [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mahadsiddiqui07@outlook.com) 
