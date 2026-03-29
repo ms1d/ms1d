@@ -45,6 +45,8 @@ A full stack service where users can sign up, manage scenes and submit them for 
 - DB: PostgreSQL
 - CI/CD: Docker + GH Actions
 
+---
+
 ## Uptime Tracker
 A minimal & lightweight React Native app that pings HTTP endpoints periodically and sends push notifications if any fail. Good for crude uptime monitoring. My main use case for this is for tracking the uptime of a self hosted web server I have which may run production applications. [Check it out here](https://github.com/ms1d/uptime-tracker)
 
