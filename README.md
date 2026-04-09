@@ -39,8 +39,8 @@ A full stack service where users can sign up, manage scenes and submit them for 
 - Realtime render progress view via UDP + Websocket streaming to client
 
 ### Tech Stack
-- Frontend: [React](https://github.com/ms1d/path-tracer-react) (with GH Pages hosting)
-- Backend (main): [.NET](https://github.com/ms1d/PathTracerApi) (with Azure Container Apps hosting)
+- Frontend: [React](https://github.com/ms1d/path-tracer-react) (self hosted)
+- Backend (main): [.NET](https://github.com/ms1d/PathTracerApi) (self hosted)
 - Backend (path tracer): [CUDA](https://github.com/ms1d/path-tracer-cpp) (with vast.ai hosting)
 - DB: PostgreSQL
 - CI/CD: Docker + GH Actions
