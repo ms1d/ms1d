@@ -4,9 +4,9 @@ Primarily a .NET engineer with Node.js, Python and C++ experience.
 
 # 🎯 Current Focus
 * Practicing strong fundamentals in backend system architecture
-* Building containerised deployment systems and CI/CD workflows (Docker, GitHub Actions, Azure)
 * Studying operating systems and networking fundamentals (Linux, self-hosting)
-* Low-level systems programming (C++)
+* Low-level systems programming (C/C++/Rust)
+* Building containerised deployment systems and CI/CD workflows (Docker, GitHub Actions, Azure)
 
 # 🔧 Current Projects
 
@@ -35,13 +35,13 @@ A full stack service where users can sign up, manage scenes and submit them for 
 ### Planned Features
 - Interactive game engine-like scene editing interface
 - Dashboard for managing scenes + renders
-- 2 backend servers: main .NET server for most domain logic + specialised C++ server for path tracing requests
+- 2 backend servers: main .NET server for most domain logic + specialised C++ server for rendering
 - Realtime render progress view via UDP + Websocket streaming to client
 
 ### Tech Stack
-- Frontend: [React](https://github.com/ms1d/path-tracer-react) (self hosted)
-- Backend (main): [.NET](https://github.com/ms1d/PathTracerApi) (self hosted)
-- Backend (path tracer): [CUDA](https://github.com/ms1d/path-tracer-cpp) (with vast.ai hosting)
+- Frontend: [React](https://github.com/ms1d/path-tracer)
+- Backend (business api): [.NET](https://github.com/ms1d/path-tracer-api) (self hosted)
+- Backend (engine): [C++20](https://github.com/ms1d/path-tracer-engine)
 - DB: PostgreSQL
 - CI/CD: Docker + GH Actions
 
