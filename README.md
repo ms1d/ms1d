@@ -10,40 +10,22 @@ Primarily a .NET engineer with Node.js, Python and C++ experience.
 
 # 🔧 Current Projects
 
-## Tuition Admin Software
-Backend API for managing student attendance for a local tuition center. Built with .NET and PostgreSQL.
+## [BVH-Builder](https://github.com/ms1d/bvh-builder)
 
-### Implemented Features
-- User Auth + Resource Management
-- Student attendance and sessions tracking
-- Flexible schema for scaling the system to add more features
+C++23 bounding volume hierarchy (bvh) builder that runs concurrently on the CPU
 
 ### Planned Features
-- Automated invoice generation + delivery via Mailgun (+ WhatsApp Business API)
+- One-shot and daemon run modes
+- Low latency concurrent building via a custom thread pool implementation
 
-### Tech Stack
-- Code: .NET
-- DB: PostgreSQL
-- CI/CD: Docker + GH Actions
-- Hosting: Azure (Container Apps + Blob Storage for Observability)
+## [Path Tracer](https://github.com/ms1d/path-tracer-engine)
 
----
-
-## Path Tracer
-A full stack service where users can sign up, manage scenes and submit them for offline rendering
+C++20 CLI renderer that runs concurrently on both the CPU and GPU
 
 ### Planned Features
-- Interactive game engine-like scene editing interface
-- Dashboard for managing scenes + renders
-- 2 backend servers: main .NET server for most domain logic + specialised C++ server for rendering
-- Realtime render progress view via UDP + Websocket streaming to client
-
-### Tech Stack
-- Frontend: [React](https://github.com/ms1d/path-tracer)
-- Backend (business api): [.NET](https://github.com/ms1d/path-tracer-api) (self hosted)
-- Backend (engine): [C++20](https://github.com/ms1d/path-tracer-engine)
-- DB: PostgreSQL
-- CI/CD: Docker + GH Actions
+- Support for UDP previews & TCP final results
+- Parallelised on the GPU with optional CPU modes for non-CUDA systems
+- BVH acceleration
 
 # 🌐 Socials
 [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mahadsiddiqui07@outlook.com)
