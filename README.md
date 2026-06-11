@@ -15,7 +15,8 @@ Primarily a .NET engineer with Node.js, Python and C++ experience.
 C++23 bounding volume hierarchy (bvh) builder that runs concurrently on the CPU
 
 ### Planned Features
-- One-shot and daemon run modes
+- Daemon-client architecture to minimise allocations (systemd friendly)
+- Alternative one-shot executeable
 - Low latency concurrent building via a custom thread pool implementation
 
 ## [Path Tracer](https://github.com/ms1d/path-tracer-engine)
@@ -23,7 +24,7 @@ C++23 bounding volume hierarchy (bvh) builder that runs concurrently on the CPU
 C++20 CLI renderer that runs concurrently on both the CPU and GPU
 
 ### Planned Features
-- Support for UDP previews & TCP final results
+- Support for UDP previews & TCP checkpoints + final results
 - Parallelised on the GPU with optional CPU modes for non-CUDA systems
 - BVH acceleration
 
