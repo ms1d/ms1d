@@ -1,11 +1,11 @@
 # 💫 About Me
-JMC offer holder at the University of Manchester & Durham University.
-Primarily a .NET engineer with Node.js, Python and C++ experience.
+CS offer holder at the University of Manchester & Durham University.
+Primarily a .NET engineer with Node.js, Python and C/C++ experience.
 
 # 🎯 Current Focus
-* Practicing strong fundamentals in backend system architecture
-* Studying operating systems and networking fundamentals (Linux, self-hosting)
 * Low-level systems programming (C/C++/Rust)
+* Studying operating systems and networking fundamentals (Linux, self-hosting)
+* Practicing strong fundamentals in backend system architecture
 * Building containerised deployment systems and CI/CD workflows (Docker, GitHub Actions, Azure)
 
 # 🔧 Current Projects
