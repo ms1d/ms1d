@@ -24,7 +24,7 @@ C++23 Bounding Volume Hierarchy (BVH) builder that runs concurrently on the CPU
 ### Benchmarks
 - 1024-thread stress tests showed ~30–40x throughput improvements after reducing false sharing with atomic alignment/padding optimisations, improving scalability
 - Improved BVH construction throughput by ~50% through improved scheduling
-- 25M tris/s on Ryzen 7 8845HS
+- 20M tris/s end-to-end on Ryzen 7 8845HS
 
 ## [Path Tracer](https://github.com/ms1d/path-tracer-engine)
 
